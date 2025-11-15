@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Checkout | SM Pillows</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 class="logo">SM Pillows</h1>
+      <img src="logo1.png" width="60" />
+    </nav>
+  </header>
+
+  <section class="checkout">
+    <h2>Confirm Your Order</h2>
+    <div class="order-details">
+      <p><b>Product:</b> <span id="productName"></span></p>
+      <p><b>Price:</b> <span id="productPrice"></span></p>
+    </div>
+
+    <form id="orderForm">
+      <input type="text" placeholder="Full Name" required />
+      <input type="text" placeholder="Address" required />
+      <input type="tel" placeholder="Phone Number" required />
+      <p>Pay via UPI: <b>yourname@upi</b></p>
+      <img src="qr.png" alt="UPI QR Code" class="qr" />
+      <button type="submit" class="btn">Confirm Order</button>
+    </form>
+  </section>
+</body>
+</html>
